@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useMap, useMapEvents } from 'react-leaflet/hooks';
-// import ChangeView from '../hooks/Changeview';
-
 
 export default function SearchBlock({ result, setResult }) {
 
@@ -16,8 +14,6 @@ export default function SearchBlock({ result, setResult }) {
       lat: 34.04915,
       lng: -118.09462,
    };
-
-
 
    const [input, setInput] = useState("");
    var [resultSB, setResultSB] = useState({});

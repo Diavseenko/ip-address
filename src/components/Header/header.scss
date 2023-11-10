@@ -1,13 +1,13 @@
 .header{
    box-sizing: border-box;
    height: 100%;
-   max-height: 280px;
+   max-height: 260px;
    width: 100%;
    position: absolute;
    z-index: 1000;
    display: flex;
    flex-direction: column;
-   padding-top: 30px;
+   padding-top: 20px;
    align-items: center;
    background: linear-gradient(27deg, rgba(2,0,36,1) 0%, rgba(71,68,159,1) 32%, rgba(0,212,255,1) 100%);
 }
@@ -34,6 +34,7 @@
    justify-content: center;
 }
 .search-input{
+   font-size: 20px;
    width: 30%;
    height: 100%;
    border-radius: 10px 0px 0px 10px;
@@ -69,9 +70,6 @@
    border-radius: 15px;
    transform: translateY(50%);
    padding: 20px 0px 20px 0px;
-   
-
-
 }
 .info-item{
    width: 25%;
@@ -95,4 +93,103 @@ margin: 0;
    background-color: rgb(167, 172, 172);
    height: 65%;
    width: 1px;
+}
+
+
+@media (max-width: 1435px){
+   .info-item{
+      margin:22px;
+   }
+}
+@media (max-width: 1350px){
+   .info-item{
+      margin:15px;
+   }
+   .info{
+      width: 83%;
+   }
+   .info-text{
+      font-size: 20px;
+   }
+   .search-input{
+      font-size: 20px;
+      height: 85%;
+   }
+   .search-input::placeholder{
+      font-size: 16px;
+   }
+   .search-submit{
+      font-size: 40px;
+      height: 94%;
+   }
+}
+@media (max-width: 960px){
+   .info{
+      padding: 12px 0px 12px 0px;
+      width: 87%;
+      height: 67%;
+   }
+   .title{
+      height: 25%;
+   }
+   .header{
+      height: 30%;
+   }
+   .info-item{
+      margin:10px;
+   }
+   .info-text{
+      font-size: 18px;
+   }
+   .search-input{
+      font-size: 20px;
+      height: 80%;
+   }
+   .search-input::placeholder{
+      font-size: 16px;
+   }
+   .search-submit{
+      font-size: 40px;
+      height: 89%;
+   }
+}
+@media (max-width: 850px){
+   .info{
+      padding: 12px 0px 12px 0px;
+      width: 90%;
+   }
+   .info-item{
+      margin:10px;
+   }
+   .info-text{
+      font-size: 18px;
+   }
+}
+@media (max-width: 600px){
+   .info{
+   max-height: 300px;
+   height: 122%;
+   width: 90%;
+   flex-direction: column;
+   transform: translateY(66%);
+   padding: 10px 0px 10px 0px;
+   }
+   .vert-line{
+      display: none;
+   }
+   .info-item{
+      width: 80%;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 5px;
+   }
+   .search-input{
+      width: 77%;
+   }
+   .search-submit{
+      width: 10%;
+   }
+}
+@media (max-width: 400px){
+   
 }
