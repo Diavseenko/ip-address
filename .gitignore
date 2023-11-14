@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 /doc
+/buildFb
+/build
 
 # testing
 /coverage
