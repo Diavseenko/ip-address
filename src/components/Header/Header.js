@@ -4,7 +4,7 @@ import React from 'react'
 import SearchBlock from './SearchBlock';
 import Information from './Information';
 
-import './header.scss';
+import './header.css';
 
 export default function Header({ result, setResult, ChangeView }) {
    var location;

@@ -255,10 +255,6 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	pointer-events: auto;
 	}
 
-.leaflet-marker-icon{
-	margin-left: -22px;
-	margin-top: -45px;
-}
 /* visual tweaks */
 
 .leaflet-container {
